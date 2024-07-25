@@ -24,7 +24,7 @@ for word in words:
 for word in words:
     story = story.replace(word, answers[word])
 
-with open('story.txt', 'w') as f:
+with open('story_output.txt', 'w') as f:
     f.write(story)
 
 print(story)
